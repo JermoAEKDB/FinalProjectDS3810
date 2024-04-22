@@ -1,6 +1,8 @@
+#variables used for the if statement to follow
 userName = input("Hello! Welcome to my program! Please input your First Name:")
 sameName = str("Jeremy")
 
+#if-else statement to follow prompting the user
 if userName == sameName:
     print("Cool, that is my name too!")
     mileinput = float(input("How many miles away do you live, Jeremy?"))
