@@ -14,9 +14,9 @@ user_input = input("Would you like some Powerball Numbers? (Yes or No):")
 
 # if-else functions for selection
 if user_input == 'Yes' :
-    print(str("Here are your selected numbers!:"),str(var1),"",str(var2),"",str(var3),"",str(var4),"",str(var5),"  ",str(var6))
+    print(str("Here are your selected numbers!:"),str(var1),"",str(var2),"",str(var3),"",str(var4),"",str(var5)," ",str(var6))
 elif user_input == 'No' :
     print("Seems like you don't wan't to test your luck, Goodbye!")
 else:
-    print("Perhaps there has been an error, try again with (Yes/No).")
+    print("Perhaps there has been an error,reset the generator and try again with (Yes/No).")
 
